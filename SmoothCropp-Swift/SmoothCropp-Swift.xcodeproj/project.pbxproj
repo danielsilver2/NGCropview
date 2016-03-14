@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46C8EFA11C96ACEF00AF077F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C8EFA01C96ACEF00AF077F /* AppDelegate.swift */; };
+		46C8EFA31C96ACEF00AF077F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C8EFA21C96ACEF00AF077F /* ViewController.swift */; };
+		46C8EFA61C96ACEF00AF077F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46C8EFA41C96ACEF00AF077F /* Main.storyboard */; };
+		46C8EFA81C96ACEF00AF077F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46C8EFA71C96ACEF00AF077F /* Assets.xcassets */; };
+		46C8EFAB1C96ACEF00AF077F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46C8EFA91C96ACEF00AF077F /* LaunchScreen.storyboard */; };
+		46C8EFBB1C96B20100AF077F /* JBCroppableImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C8EFB81C96B20100AF077F /* JBCroppableImageView.m */; };
+		46C8EFBC1C96B20100AF077F /* JBCroppableLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C8EFBA1C96B20100AF077F /* JBCroppableLayer.m */; };
+		46C8EFBE1C96B44100AF077F /* homebg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 46C8EFBD1C96B44100AF077F /* homebg.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		46C8EF9D1C96ACEF00AF077F /* SmoothCropp-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SmoothCropp-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46C8EFA01C96ACEF00AF077F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46C8EFA21C96ACEF00AF077F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46C8EFA51C96ACEF00AF077F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46C8EFA71C96ACEF00AF077F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46C8EFAA1C96ACEF00AF077F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46C8EFAC1C96ACEF00AF077F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46C8EFB61C96B20000AF077F /* SmoothCropp-Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmoothCropp-Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		46C8EFB71C96B20100AF077F /* JBCroppableImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBCroppableImageView.h; sourceTree = "<group>"; };
+		46C8EFB81C96B20100AF077F /* JBCroppableImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBCroppableImageView.m; sourceTree = "<group>"; };
+		46C8EFB91C96B20100AF077F /* JBCroppableLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBCroppableLayer.h; sourceTree = "<group>"; };
+		46C8EFBA1C96B20100AF077F /* JBCroppableLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBCroppableLayer.m; sourceTree = "<group>"; };
+		46C8EFBD1C96B44100AF077F /* homebg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = homebg.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46C8EF9A1C96ACEF00AF077F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46C8EF941C96ACEF00AF077F = {
+			isa = PBXGroup;
+			children = (
+				46C8EF9F1C96ACEF00AF077F /* SmoothCropp-Swift */,
+				46C8EF9E1C96ACEF00AF077F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46C8EF9E1C96ACEF00AF077F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46C8EF9D1C96ACEF00AF077F /* SmoothCropp-Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46C8EF9F1C96ACEF00AF077F /* SmoothCropp-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				46C8EFBD1C96B44100AF077F /* homebg.jpg */,
+				46C8EFB71C96B20100AF077F /* JBCroppableImageView.h */,
+				46C8EFB81C96B20100AF077F /* JBCroppableImageView.m */,
+				46C8EFB91C96B20100AF077F /* JBCroppableLayer.h */,
+				46C8EFBA1C96B20100AF077F /* JBCroppableLayer.m */,
+				46C8EFA01C96ACEF00AF077F /* AppDelegate.swift */,
+				46C8EFA21C96ACEF00AF077F /* ViewController.swift */,
+				46C8EFA41C96ACEF00AF077F /* Main.storyboard */,
+				46C8EFA71C96ACEF00AF077F /* Assets.xcassets */,
+				46C8EFA91C96ACEF00AF077F /* LaunchScreen.storyboard */,
+				46C8EFAC1C96ACEF00AF077F /* Info.plist */,
+				46C8EFB61C96B20000AF077F /* SmoothCropp-Swift-Bridging-Header.h */,
+			);
+			path = "SmoothCropp-Swift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46C8EF9C1C96ACEF00AF077F /* SmoothCropp-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46C8EFAF1C96ACEF00AF077F /* Build configuration list for PBXNativeTarget "SmoothCropp-Swift" */;
+			buildPhases = (
+				46C8EF991C96ACEF00AF077F /* Sources */,
+				46C8EF9A1C96ACEF00AF077F /* Frameworks */,
+				46C8EF9B1C96ACEF00AF077F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SmoothCropp-Swift";
+			productName = "SmoothCropp-Swift";
+			productReference = 46C8EF9D1C96ACEF00AF077F /* SmoothCropp-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46C8EF951C96ACEF00AF077F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Olbuz;
+				TargetAttributes = {
+					46C8EF9C1C96ACEF00AF077F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 46C8EF981C96ACEF00AF077F /* Build configuration list for PBXProject "SmoothCropp-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46C8EF941C96ACEF00AF077F;
+			productRefGroup = 46C8EF9E1C96ACEF00AF077F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46C8EF9C1C96ACEF00AF077F /* SmoothCropp-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46C8EF9B1C96ACEF00AF077F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46C8EFAB1C96ACEF00AF077F /* LaunchScreen.storyboard in Resources */,
+				46C8EFA81C96ACEF00AF077F /* Assets.xcassets in Resources */,
+				46C8EFA61C96ACEF00AF077F /* Main.storyboard in Resources */,
+				46C8EFBE1C96B44100AF077F /* homebg.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46C8EF991C96ACEF00AF077F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46C8EFA31C96ACEF00AF077F /* ViewController.swift in Sources */,
+				46C8EFBB1C96B20100AF077F /* JBCroppableImageView.m in Sources */,
+				46C8EFBC1C96B20100AF077F /* JBCroppableLayer.m in Sources */,
+				46C8EFA11C96ACEF00AF077F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		46C8EFA41C96ACEF00AF077F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46C8EFA51C96ACEF00AF077F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46C8EFA91C96ACEF00AF077F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46C8EFAA1C96ACEF00AF077F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46C8EFAD1C96ACEF00AF077F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46C8EFAE1C96ACEF00AF077F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46C8EFB01C96ACEF00AF077F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "SmoothCropp-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.olbuz.SmoothCropp-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SmoothCropp-Swift/SmoothCropp-Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46C8EFB11C96ACEF00AF077F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "SmoothCropp-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.olbuz.SmoothCropp-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SmoothCropp-Swift/SmoothCropp-Swift-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46C8EF981C96ACEF00AF077F /* Build configuration list for PBXProject "SmoothCropp-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46C8EFAD1C96ACEF00AF077F /* Debug */,
+				46C8EFAE1C96ACEF00AF077F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46C8EFAF1C96ACEF00AF077F /* Build configuration list for PBXNativeTarget "SmoothCropp-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46C8EFB01C96ACEF00AF077F /* Debug */,
+				46C8EFB11C96ACEF00AF077F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46C8EF951C96ACEF00AF077F /* Project object */;
+}
